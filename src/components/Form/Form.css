@@ -1,0 +1,20 @@
+.form {
+  display: flex;
+  align-items: center;
+
+}
+
+.form.edit {
+  padding: 1.5rem;
+}
+
+.form.edit input {
+  border: 1px solid rgb(13, 42, 77, 0.2);
+  padding: 1.5rem;
+  margin-right: 2rem;
+}
+
+.close-btn {
+  color: red;
+  cursor: pointer;
+}

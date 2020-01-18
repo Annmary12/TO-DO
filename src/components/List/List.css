@@ -1,0 +1,13 @@
+.list {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style: none;
+}
+
+.list .card {
+    padding: 0
+}

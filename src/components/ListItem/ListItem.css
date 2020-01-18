@@ -1,0 +1,37 @@
+li {
+    padding: 2.5rem 2rem;
+}
+
+li:nth-child(2n) {
+    background-color: rgba(12, 40, 73, 0.1);
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-item--left {
+    display: flex;
+    align-items: center;
+}
+
+.list-item span {
+    font-size: 1.6rem;
+    padding-left: .7rem;
+    text-transform: capitalize;
+}
+
+.cancel {
+    text-decoration: line-through;
+    color: #2cc973;
+
+}
+
+.list-item.icons img{
+    padding: .2rem;
+}
+.list-item.icons img:hover {
+    fill: red;
+}
